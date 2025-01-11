@@ -51,3 +51,8 @@ nav li button:hover {
     background-color: rgb(9, 161, 92);
     color: rgb(255, 255, 255);
 }
+
+.banner-content button:hover{
+    background-color: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+}
