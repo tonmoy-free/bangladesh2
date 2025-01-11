@@ -1,0 +1,50 @@
+* {}
+
+.fira-sans-bold {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    letter-spacing: 0%;
+    font-style: normal;
+}
+
+/* Shared style */
+.btn-primary {
+    background-color: white;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/* header section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 160px;
+}
+
+.nav-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav li button:hover {
+    background-color: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+}
