@@ -52,7 +52,30 @@ nav li button:hover {
     color: rgb(255, 255, 255);
 }
 
-.banner-content button:hover{
+.banner-content button:hover {
     background-color: rgb(9, 161, 92);
     color: rgb(255, 255, 255);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 160px;
+    background-color: rgb(198, 228, 214);
+    padding: 60px 80px 60px 80px;
+    border-radius: 24px;
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-main {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    /* line-height: px; */
+    letter-spacing: 0%;
+    text-align: left;
 }
