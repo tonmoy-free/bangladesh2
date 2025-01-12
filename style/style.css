@@ -15,7 +15,7 @@
     font-weight: 600;
     border: none;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid rgb(0, 106, 80);
 
 }
@@ -48,12 +48,12 @@ nav li a {
 }
 
 nav li button:hover {
-    background-color: rgb(9, 161, 92);
+    background-color: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
 }
 
 .banner-content button:hover {
-    background-color: rgb(9, 161, 92);
+    background-color: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
 }
 
@@ -129,7 +129,7 @@ nav li button:hover {
     border: none;
     padding: 11px 20px;
     margin-top: 35px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid rgb(0, 106, 80);
 }
 
@@ -140,6 +140,7 @@ nav li button:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 .hover1 {
@@ -226,6 +227,11 @@ nav li button:hover {
 }
 
 /* Opinion part CSS*/
+.opinion {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .opinion-table {
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -246,7 +252,7 @@ nav li button:hover {
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(198, 228, 214);
 }
-  
+
 .opinion table thead th {
     padding: 24px;
     text-align: left;
@@ -256,4 +262,55 @@ nav li button:hover {
     padding: 24px;
     text-align: left;
     border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+.opinion table tbody td select {
+    text-decoration: none;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    font-family: Fira Sans;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* Recent News */
+.recent-news button:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+.recent-box {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 160px;
+    gap: 32px;
+}
+
+.recent-img {
+    margin-top: 30px;
+    border-radius: 24px; 
+}
+
+.recent-subtitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.recent-box p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
