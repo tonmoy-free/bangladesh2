@@ -203,9 +203,10 @@ nav li button:hover {
     margin-top: 35px;
 }
 
-.yunus-last{
+.yunus-last {
     margin-bottom: 40px;
 }
+
 .yunus-title {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
@@ -222,4 +223,37 @@ nav li button:hover {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+
+/* Opinion part CSS*/
+.opinion-table {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+.opinion table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion table thead {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+  
+.opinion table thead th {
+    padding: 24px;
+    text-align: left;
+}
+
+.opinion table tbody td {
+    padding: 24px;
+    text-align: left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
 }
