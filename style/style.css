@@ -79,3 +79,96 @@ nav li button:hover {
     letter-spacing: 0%;
     text-align: left;
 }
+
+.item-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-title {
+    text-align: left;
+    padding-left: 160px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+
+.pillars-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 32px 160px;
+}
+
+.pillars-item {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px 24px;
+}
+
+.pillars-items img{
+    width: 50px;
+}
+/* vision */
+ .pillars-item a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-vision{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 11px 20px;
+    margin-top: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 106, 80);
+}
+
+.vision-p {
+    text-align: left;
+    padding-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 32px;
+}
+
+.hover1{
+    background-color: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(84, 144, 245);
+    cursor: pointer;
+}
+
+.hover2{
+    background-color: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(9, 161, 92);
+    cursor: pointer;
+}
+
+.hover3{
+    background-color: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 194, 57);
+    cursor: pointer;
+}
+
+.item1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.item2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.item3 {
+    background-color: rgb(247, 235, 207);
+}
