@@ -110,17 +110,18 @@ nav li button:hover {
     padding: 32px 24px;
 }
 
-.pillars-items img{
+.pillars-items img {
     width: 50px;
 }
+
 /* vision */
- .pillars-item a {
+.pillars-item a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
 }
 
-.btn-vision{
+.btn-vision {
     background-color: white;
     color: rgb(0, 106, 80);
     font-size: 18px;
@@ -141,21 +142,21 @@ nav li button:hover {
     margin-bottom: 32px;
 }
 
-.hover1{
+.hover1 {
     background-color: rgb(84, 144, 245);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(84, 144, 245);
     cursor: pointer;
 }
 
-.hover2{
+.hover2 {
     background-color: rgb(9, 161, 92);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(9, 161, 92);
     cursor: pointer;
 }
 
-.hover3{
+.hover3 {
     background-color: rgb(255, 194, 57);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 194, 57);
@@ -172,4 +173,53 @@ nav li button:hover {
 
 .item3 {
     background-color: rgb(247, 235, 207);
+}
+
+/* Yunus part */
+.yunus {
+    text-align: left;
+    margin-left: 160px;
+    margin-right: 158px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.yunus img {
+    /* width: 27px; */
+    position: absolute;
+    margin-top: 35px;
+}
+
+.yunus-detail {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-top: 35px;
+}
+
+.yunus-last{
+    margin-bottom: 40px;
+}
+.yunus-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 24px;
+     letter-spacing: 0%;  */
+    text-align: left;
+
+}
+
+.yunus-sub-title {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
