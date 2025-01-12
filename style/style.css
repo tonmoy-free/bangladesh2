@@ -393,7 +393,7 @@ nav li button:hover {
     background: rgb(198, 228, 214);
 }
 
-input[type=text] {
+.donate input[type=text] {
     width: 100%;
     padding: 20px 40px;
     margin: 8px 0;
@@ -407,4 +407,93 @@ input[type=text] {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* News letter */
+.newsletter {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    padding: 80px;
+    margin: 80px 160px;
+}
+
+.newsletter h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.newsletter p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* .subscribe {
+    display: flex;
+    justify-content: center;
+    gap: -5px;
+} */
+.subscribe input[type=text] {
+    width: 100%;
+    padding: 20px 5px;
+    margin: 9px 10px;
+    padding-left: 25px;
+    /* display: inline-block; */
+    border: none;
+    /* box-sizing: border-box; */
+    text-align: left;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    
+}
+
+.subscribe {
+    position: relative;
+}
+.position-re {
+    position: absolute;
+     top: 8px;
+    left: 975px;
+}
+.btn-sub{
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px
+    border: none;
+    padding: 21px 30px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid rgb(0, 106, 80);
+ 
+}
+
+/* Bangladdesh part */
+.bd h1 {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.footer-img {
+    margin-left: 750px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
 }
